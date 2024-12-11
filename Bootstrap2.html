@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title> <!-- Сайттың атауы -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- Логотип қосу -->
+                <img src="https://avatars.mds.yandex.net/i?id=e435ab4b10200a9303e42737c06fa1fd58c18b50-4347438-images-thumbs&n=13" alt="Logo" width="120">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Продукты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+            Hello, world! This is a toast message.
+            <div class="mt-2 pt-2 border-top">
+                <button type="button" class="btn btn-primary btn-sm">Take action</button>
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container py-5">
+        <h2>Добро пожаловать на наш сайт!</h2>
+        <p>Сайт с использованием Bootstrap.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
